@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stant - sua estante literaria virtual</title>
+    <title>Stant - Seu Refúgio Literário</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+    <header class="navbar">
+        <div class="logo">Stant</div>
+        <nav>
+            <ul>
+                <li><a href="#">TODOS</a></li>
+                <li><a href="#">LENDO</a></li>
+                <li><a href="#">LIDOS</a></li>
+                <li><a href="#">DESEJOS</a></li>
+            </ul>
+        </nav>
+        <button class="btn-add">+ ADICIONAR LIVRO</button>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Seu refúgio literário.</h1>
+            <p>Um diário privado para guardar suas memórias de leitura.</p>
+        </section>
+
+        <section class="shelf-header">
+            <h2>Minha Estante</h2>
+            <span>3 LIVROS REGISTRADOS</span>
+        </section>
+
+        <div class="grid-books">
+            <div class="card">
+                <div class="badge lendo">LENDO</div>
+                <div class="star-top">★</div>
+                <h3>O Nome do Vento</h3>
+                <p class="author">PATRICK ROTHFUSS</p>
+                <hr>
+                <div class="card-footer">
+                    <div class="stars">★★★★★</div>
+                    <a href="#" class="view-notes">VER NOTAS</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="badge lido">LIDO</div>
+                <h3>Cem Anos de Solidão</h3>
+                <p class="author">GABRIEL GARCÍA MÁRQUEZ</p>
+                <hr>
+                <div class="card-footer">
+                    <div class="stars">★★★★★</div>
+                    <a href="#" class="view-notes">VER NOTAS</a>
+                </div>
+            </div>
+
+            <div class="card wishlist">
+                <div class="badge desejo">DESEJO</div>
+                <h3>Duna</h3>
+                <p class="author">FRANK HERBERT</p>
+                <hr>
+                <div class="card-footer">
+                    <span class="no-rating">Ainda não avaliado</span>
+                    <a href="#" class="view-notes">VER NOTAS</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
 </body>
 </html>
+
+
+
